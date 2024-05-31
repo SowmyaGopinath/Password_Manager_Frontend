@@ -1,0 +1,59 @@
+.app-container{
+    background-color:#C2D9FF;
+    height: 100vh;
+}
+
+.signup-container {
+    max-width: 400px;
+    padding: 1rem;
+}
+
+.sign-up-title {
+    color: #190482;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.btn-primary {
+    background-color: rgb(31, 77, 214);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    height: 35px;
+    font-family: serif;
+    color: white;
+} 
+
+.nav-bar {
+    background-color: #190482;
+}
+
+.navbar-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;  
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+}
+
+.navbar-link:hover {
+    color: whitesmoke;
+    font-weight: 650;
+}
+
+.navbar-link:hover {
+    color: whitesmoke;
+    font-weight: 650;
+}
+
+.login-link {
+    color: #190482;
+    font-size: large;
+    font-weight: 800;
+    text-decoration: none;
+    font-family: serif;
+
+}

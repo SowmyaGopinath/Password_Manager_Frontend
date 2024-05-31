@@ -1,0 +1,113 @@
+.container {
+    height: 100vh;
+}
+.home-page-header {
+    background-color: #190482;
+    margin: auto -16px;
+    padding: 8px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-family: "sarif";
+    font-weight: 10;
+    display: block;
+}
+.flex-end{
+    color: white;
+    margin-left: 80%;
+    background: none;
+    border: none; 
+    padding: 5px;
+ }
+
+
+.add-card button {
+    background: #C2D9FF;
+    color:  #190482;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
+
+.add-card button:hover {
+    background: #190482;
+    color:  #C2D9FF;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
+
+.icons button{
+    background: none;
+    background-color: transparent;
+    color: #190482;
+    border: none;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+
+}
+
+.cards-container {
+    margin: 2%;
+}
+
+.add-card {
+    max-width: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    opacity: 1;
+    z-index: 10; 
+}
+
+.app-card {
+    min-height:150px; 
+}
+
+
+.icon button[isicon="true"]{
+    padding: 1pt;
+    width: auto;
+    height: auto;
+    color: #190482;
+}
+
+.icon button[isicon="true"]:hover {
+    background-color: #190482;
+    color: #C2D9FF;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.eye-icon button{
+    padding: 1pt;
+    width: auto;
+    height: auto;
+    color: #190482;
+    font-weight: lighter;
+    border:none;
+}
+
+.apps-footer {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.eye-container {
+    display: flex;
+    justify-content: space-between;
+}
+
